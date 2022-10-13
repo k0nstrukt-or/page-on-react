@@ -1,15 +1,15 @@
 import './App.scss';
 import { NewUser } from './components/NewUser/NewUser';
 import { Header } from './components/Header/Header';
-import { HeroSection } from './components/TitleSection/TitleSection';
+import { TitleSection } from './components/TitleSection/TitleSection';
 import { UserList } from './components/UserList.tsx/UserList';
 import { useCallback, useEffect, useState } from 'react';
-import { IUser } from './types/User';
+import { User } from './types/User';
 import { getUsersPagination } from './api';
 
 function App() {
   const [count, setCount] = useState(6);
-  const [users, setUsers] = useState<IUser[]>([]);
+  const [users, setUsers] = useState<User[]>([]);
   const [total_users, setTotalUsers] = useState(0);
   const [isLoaded, setLoaded] = useState(false);
 
@@ -41,7 +41,7 @@ function App() {
 
       <main className="App__main">
         <div className="HeroSectionContainer">
-          <HeroSection />
+          <TitleSection />
         </div>
        
         <div className="ContentContainer">

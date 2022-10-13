@@ -2,7 +2,7 @@ import React from "react";
 import { AnchorLink } from "../AnchorLink/AnchorLink"
 import './TitleSection.scss'
 
-export const HeroSection = React.memo(() => {
+export const TitleSection = React.memo(() => {
   return (
     <section className="TitleSection">
       <div className="TitleSection__container">
