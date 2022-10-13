@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_GET-POST-pixel-perfect-page/static/css/main.195d32a2.css",
+    "main.js": "/react_GET-POST-pixel-perfect-page/static/js/main.85f86a91.js",
+    "static/js/787.ce85c655.chunk.js": "/react_GET-POST-pixel-perfect-page/static/js/787.ce85c655.chunk.js",
+    "static/media/bcgTitleSection1170.png": "/react_GET-POST-pixel-perfect-page/static/media/bcgTitleSection1170.5fff95b28b2b73999698.png",
+    "static/media/bcgTitleSection1024.png": "/react_GET-POST-pixel-perfect-page/static/media/bcgTitleSection1024.97a28916b64bbbafb6eb.png",
+    "static/media/bcgTitleSection768.png": "/react_GET-POST-pixel-perfect-page/static/media/bcgTitleSection768.78baa64ca2fbf33a156c.png",
+    "static/media/bcgTitleSection360.png": "/react_GET-POST-pixel-perfect-page/static/media/bcgTitleSection360.f09745ecfb59d899d06d.png",
+    "static/media/success-image.svg": "/react_GET-POST-pixel-perfect-page/static/media/success-image.cb0cd37ea92d8640f00f.svg",
+    "static/media/logo.svg": "/react_GET-POST-pixel-perfect-page/static/media/logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/Loader.svg": "/react_GET-POST-pixel-perfect-page/static/media/Loader.0aaf07f39acaa32ce036.svg",
+    "index.html": "/react_GET-POST-pixel-perfect-page/index.html",
+    "main.195d32a2.css.map": "/react_GET-POST-pixel-perfect-page/static/css/main.195d32a2.css.map",
+    "main.85f86a91.js.map": "/react_GET-POST-pixel-perfect-page/static/js/main.85f86a91.js.map",
+    "787.ce85c655.chunk.js.map": "/react_GET-POST-pixel-perfect-page/static/js/787.ce85c655.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.195d32a2.css",
+    "static/js/main.85f86a91.js"
+  ]
+}
