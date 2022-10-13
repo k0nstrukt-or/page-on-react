@@ -1,0 +1,52 @@
+@import "../../utils";
+
+.Input {
+  padding: 13px 16px;
+  width: 100%;
+
+  border: 1px solid #D0CFCF;
+  border-radius: 4px;
+  background-color: inherit;
+  outline: none;
+
+  @extend %main;
+
+  transition: border-color 0.3s;
+
+  &::placeholder {
+    color: #7e7e7e;
+  }
+
+  &:focus {
+    border-color: $colorSecondary;
+  }
+
+  &--hasError {
+    border: 2px solid #CB3D40;
+  }
+}
+
+.Error {
+  display: flex;
+  flex-grow: 1;
+  height: 50px;
+  padding: 4px 16px;
+  
+  &:nth-of-type(3){
+    height: 43px;
+  }
+
+  &__Message {
+    
+    text-align: left;
+    font-size: 14px;
+    line-height: 14px;
+    color: #CB3D40;
+  }
+}
+
+.InputHint {
+  font-size: 12px;
+  line-height: 14px;
+  color: #7E7E7E;
+}

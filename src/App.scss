@@ -1,0 +1,36 @@
+@import './utils';
+
+.ContentContainer {
+  padding: 0 16px;
+  background-color: $colorBackground;
+
+  @include onTablet {
+    padding: 0 32px;
+  }
+
+  @include onDesktop {
+    padding: 0 60px;
+  }
+}
+
+.HeroSectionContainer {
+  margin-bottom: 140px;
+
+  @include onDesktopWide {
+    max-width: 1170px;
+    margin: 0 auto 140px;
+  }
+}
+
+.UserListContainer {
+  margin-bottom: 140px;
+
+  @include onDesktopWide {
+    max-width: 1170px;
+    margin: 0 auto 140px;
+  }
+}
+
+.NewUserContainer {
+  margin-bottom: 100px;
+}

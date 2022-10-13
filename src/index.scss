@@ -1,0 +1,21 @@
+@import './utils';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  @extend %main;
+  text-align: center;
+  background-color: $colorBackground;
+  scroll-behavior: smooth;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+}
+
+body,h1,h2,p {
+  margin: 0;
+  padding: 0;
+}
+

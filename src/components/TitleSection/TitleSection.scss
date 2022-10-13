@@ -1,0 +1,57 @@
+@import '../../utils';
+
+.HeroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 500px;
+  background-size: 100% 500px;
+  background-image: url(../../images/bcgTitleSection360.png);
+
+  @include onTablet {
+    background-image: url(../../images/bcgTitleSection768.png);
+  }
+
+  @include onDesktop {
+    height: 650px;
+    background-size: 100% 650px;
+    background-image: url(../../images/bcgTitleSection1024.png);
+  }
+
+  @include onDesktopWide {
+    background-image: url(../../images/bcgTitleSection1170.png);
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 328px;
+
+    @include onTablet {
+      max-width: 380px;
+    } 
+  }
+
+  &__title {
+    margin-bottom: 21px;
+
+    @extend %h1;
+    color: #fff;
+  }
+
+  &__description {
+    margin-bottom: 32px;
+    color: #fff;
+  }
+}
+
+.AnchorLinkContainer {
+  margin-bottom: 30px;
+
+  @include onTablet {
+    margin-bottom: 0;
+  }
+}

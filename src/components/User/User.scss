@@ -1,0 +1,43 @@
+@import '../../utils';
+
+.UserItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  
+  padding: 20px;
+  flex-basis: 282px;
+  max-width: 328px;
+  
+  border-radius: 10px;
+  background-color: #fff;
+
+  @include onTablet {
+    max-width: 344px;
+  }
+
+  @include onDesktop {
+    max-width: 282px;
+  }
+
+  @include onDesktopWide {
+    max-width: 370px;
+  }
+
+  &__name {
+    margin-bottom: 20px;
+  }
+
+  &__email {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__photo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+  }
+}

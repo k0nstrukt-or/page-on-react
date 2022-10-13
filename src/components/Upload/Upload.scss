@@ -1,0 +1,49 @@
+@import '../../utils';
+
+.Upload {
+  display: flex;
+  justify-content: space-between;
+  background-color: $colorBackground;
+
+  &__input {
+    display: none;
+  }
+
+  &__button {
+    padding: 13px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 4px 0 0 4px;
+    background-color: $colorBackground;
+
+    &--hasError {
+      border: 2px solid #CB3D40;
+      border-right: 1px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    padding: 13px 16px;
+    flex-grow: 1;
+
+    color: #7E7E7E;
+    border: 1px solid #D0CFCF;
+    border-left: 0px;
+    border-radius: 0 4px 4px 0;
+
+    &--hasError {
+      border: 2px solid #CB3D40;
+    }
+  }
+}
+
+// .Error {
+//   display: flex;
+//   height: 50px;
+
+//   &__Message {
+//     font-size: 14px;
+//     color: #CB3D40;
+//   }
+// }

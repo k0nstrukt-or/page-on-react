@@ -1,0 +1,41 @@
+@import '../../utils';
+
+.NewUser {
+  &__form {
+    margin: 0 auto;
+    max-width: 328px;
+
+    @include onTablet {
+      max-width: 380px;
+    }
+  }
+
+  &__field {
+    padding: 13px 16px;
+    margin-bottom: 50px;
+    width: 100%;
+
+    border: 1px solid #D0CFCF;
+    border-radius: 4px;
+    background-color: inherit;
+    outline: none;
+
+    @extend %main;
+
+    &::placeholder {
+      color: #7e7e7e;
+    }
+  }     
+}
+
+.subtitle {
+  background-color: inherit;
+  @extend %h1;
+}
+
+.successImage {
+  width: 328px;
+  height: 290px;
+  margin: 0 auto;
+  background-image: url(../../images/success-image.svg);;
+}
